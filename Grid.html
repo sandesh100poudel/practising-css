@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS grid</title>
+    <style>
+        .container{
+            display:grid;
+            grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
+            grid-gap:20px;
+            grid-auto-rows: minmax(100px,auto);
+            grid-auto-columns: minmax(50px,auto);
+           
+        
+        }
+        .item{
+            background-color:green;
+            color:white;
+            border:2px solid red;
+            border-radius:4px;
+            
+        }
+        #item-2{
+            grid-row-start:2;
+            grid-row-end:3;
+            grid-column-start:2;
+            grid-column-end:3;
+        }
+#item-1{
+    grid-row-start:1;
+    grid-row-end:3;
+}
+
+.item-1-container{
+    display:grid;
+    background-color: goldenrod;
+    grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
+    border: 7px solid black;
+
+
+
+}
+        
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="item-1-container" id="item-1">
+            <div class="nested-item">bishal ma ni bishal 1</div>
+            <div class="nested-item">bishal ma ni bishal 2</div>
+            <div class="nested-item">bishal ma ni bishal 3</div>
+            </div>
+        <div class="item" id="item-2">bishal 2<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In saepe natus vel cumque, quibusdam voluptatibus, suscipit maxime inventore, asperiores perspiciatis sed eveniet quidem. Ratione tempore optio repellat praesentium dolorem?</p></div>
+        <div class="item">bishal 3</div>
+        <div class="item">bishal 4</div>
+        <div class="item">bishal 5</div>
+    
+</body>
+</html>

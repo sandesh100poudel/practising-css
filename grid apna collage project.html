@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css grid project 1 by apna colleage</title>
+</head>
+<style>
+    .container{
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-gap: 10px;
+      grid-auto-rows: minmax(550px ,auto);
+      text-align: center;
+      color: white;
+    }
+    .item{
+      background-color:teal;
+      
+    }
+    .item-2-container{
+      display: grid;
+      grid-template-rows: repeat(2, 1fr);
+    }
+    .nested-item-2{
+      border: white solid;
+      border-radius: 3px;
+    }
+    .item-3-container{
+      display: grid;
+      grid-template-rows: repeat(3, 1fr);
+    }
+    .nested-item-3{
+      border: white solid;
+      border-radius: 3px;
+    }
+    .item-4-container{
+      display: grid;
+      grid-template-rows: repeat(4, 1fr);
+    }
+    .nested-item-4{
+      border: white solid;
+      border-radius: 3px;
+    }
+    .item-5-container{
+      display: grid;
+      grid-template-rows: repeat(6, 1fr);
+    }
+    .nested-item-5{
+      border: white solid;
+      border-radius: 3px;
+    }
+    .item-6-container{
+      display: grid;
+      grid-template-rows: repeat(12, 1fr);
+    }
+    .nested-item-6{
+      border: white solid;
+      border-radius: 3px;
+    }
+</style>
+<body>
+    <body>
+        <div class="container">
+          <div class="item item-1-container">1</div>
+          <div class="item item-2-container">
+            <div class="nested-item-2">2</div>
+            <div class="nested-item-2">3</div>
+          </div>
+          <div class="item item-3-container">
+            <div class="nested-item-3">4</div>
+            <div class="nested-item-3">5</div>
+            <div class="nested-item-3">6</div>
+          </div>
+          <div class="item item-4-container">
+            <div class="nested-item-4">7</div>
+            <div class="nested-item-4">8</div>
+            <div class="nested-item-4">9</div>
+            <div class="nested-item-4">10</div>
+          </div>
+          <div class="item item-5-container">
+            <div class="nested-item-5">11</div>
+            <div class="nested-item-5">12</div>
+            <div class="nested-item-5">13</div>
+            <div class="nested-item-5">14</div>
+            <div class="nested-item-5">15</div>
+            <div class="nested-item-5">16</div>
+          </div>
+          <div class="item item-6-container">
+            <div class="nested-item-6">18</div>
+            <div class="nested-item-6">19</div>
+            <div class="nested-item-6">20</div>
+            <div class="nested-item-6">21</div>
+            <div class="nested-item-6">22</div>
+            <div class="nested-item-6">23</div>
+            <div class="nested-item-6">24</div>
+            <div class="nested-item-6">25</div>
+            <div class="nested-item-6">26</div>
+            <div class="nested-item-6">27</div>
+            <div class="nested-item-6">28</div>
+            <div class="nested-item-6">29</div>
+            <div class="nested-item-6">30</div>
+          </div>
+        </div>
+    </body>
+    
+</body>
+</html>

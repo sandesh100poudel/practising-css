@@ -1,0 +1,15 @@
+.container{
+        display:grid;
+        
+        grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+        grid-template-rows: repeat(auto-fill,minmax(200px,1fr));
+        text-align: center;
+        color:rgb(231, 41, 41);
+    }
+    .item-1{
+        background-color:green;
+    }
+    .item-2{
+       display:grid;
+       grid-template-columns: repeat(auto-fill,minmax(200px,1fr);
+    }

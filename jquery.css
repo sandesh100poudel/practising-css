@@ -1,0 +1,65 @@
+html{
+    background-color: skyblue;
+    background-image:url("web.jpg");
+    background-repeat:no-repeat;
+    background-position:left top;
+}
+.bishal-ishu{
+    color:blue;
+    background-color:purple;
+
+}
+.vishal{
+    text-decoration: none;
+    font-weight:12px;
+    font-size: medium;
+    border:2px solid green;
+    border-radius:12px;
+    color:white;
+    background-color:rgb(182, 45, 45);
+    padding:12px;
+    margin:12px;
+
+
+
+
+
+}
+.indira{
+    text-decoration: none;
+    font-weight:12px;
+    font-size: medium;
+    border:2px solid red;
+    border-radius:12px;
+    color:white;
+    background-color:green;
+    padding:12px;
+    margin:12px;
+
+}
+.susmita{
+    text-decoration: none;
+    font-weight:12px;
+    font-size: medium;
+    border:2px solid black;
+    border-radius:12px;
+    color:white;
+    background-color:blue;
+    padding:12px;
+    margin:12px;
+
+}
+.rita{
+     text-decoration: none;
+    font-weight:12px;
+    font-size: medium;
+    border:2px solid black;
+    border-radius:12px;
+    color:white;
+    background-color:blue;
+    padding:12px;
+    margin:25px;
+    width:100%;
+    font-size:25px;
+
+}

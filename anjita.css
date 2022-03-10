@@ -1,0 +1,65 @@
+h1{
+    text-align:center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html{
+    padding:0px 200px;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:15px 30px;
+    font-size:17px;
+    padding: 0px 200px;
+}
+.container{
+    background-color: gra;
+    padding:5px 20px 15px 20px;
+    border:1px solid rgb(238, 197, 197);
+    border-radius: 5px;
+}
+input[type="name"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+select,
+textarea{
+    width:100%;
+    border-radius: 10px;
+    padding:12px;
+    border:4px solid #ccc;
+    margin:10px;
+
+
+}
+
+fieldset{
+    background-color: #fff;
+    border:1px solid;
+    border-radius: 10px;}
+
+
+input[type="submit"]{
+    background-color:skyblue;
+    padding:12px 20px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    width:100%;
+    font-size:medium;
+
+}
+input[type="submit"]:hover{
+    background-color:slategray;
+    
+}
+.bishal123{
+    color:red;
+}
+option.vishal12:hover{
+    background-color:tan;
+}
+}

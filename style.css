@@ -1,0 +1,33 @@
+h1{
+    color:blue;
+}
+
+.address{
+    color:blueviolet;
+}
+#name{
+    color:brown;
+}
+.classname{
+    color:chartreuse;
+
+
+p::first-line{
+    color:currentColor;
+}
+
+
+a[href="www.google.com"]{
+    color:darkgreen;
+}
+.special{
+    color:rgb(157, 26, 223);
+    font-weight: bold;
+}
+p{
+    color:blue;
+}
+
+    .special{
+        color:orange;
+    }

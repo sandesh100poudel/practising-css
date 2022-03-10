@@ -1,0 +1,5 @@
+CPU:  It stand for Center Processing Unit. It is the main IC (integrated circuit) chip on computer’s motherboard.
+Motherboard:  It is main circuit board  of a microcomputer. It connects almost all the other parts together in a computer.
+Chipset:  It is a set of electronic components in an integrated circuit known as s “Data Flow Management System” that manages the data flow between the processor, memory and peripherals.
+RAM:  It is the temporary or volatile memory. That means the RAM losses its data when the computer is switched off or if there is a power failure.
+ROM:  It is a permanent memory of the computer. It permanently stores it’s data even when the computer is switched off.

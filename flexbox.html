@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+</head><style>
+    body{
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:20px;
+        padding:0 20px 30px 0;
+        line-height:1.4;
+    }
+    .vishal{
+        display:flex;
+        width: 100%;
+       height:500px;
+        border:2px solid lightskyblue;
+        flex-wrap:wrap;
+        align-content:space-between;
+       
+    }
+    .flex-item{
+        width:75px;
+        
+        border:2px solid darkblue;
+        text-align:center;
+        font-size:2em;
+        color:white;
+        font-weight:bold;
+        line-height:1.4;
+
+    }
+#flex-item-1{
+    background-color:red;
+    flex-basis: 200px;
+    flex-grow:2;
+}
+#flex-item-2{
+    background-color:yellow;
+    order:5;
+    
+}
+#flex-item-3{
+    background-color:green;
+    align-self:center;
+}
+#flex-item-4{
+    background-color:blue;
+}
+#flex-item-5{
+    background-color:purple;
+}
+</style>
+
+<body><div class="vishal">
+    <div class="flex-item" id="flex-item-1">a</div>
+    <div class="flex-item" id="flex-item-2">b</div>
+    <div class="flex-item" id="flex-item-3">c</div>
+    <div class="flex-item" id="flex-item-4">d</div>
+    <div class="flex-item" id="flex-item-5">e</div>
+    
+
+
+</div>
+    
+</body>
+</html>
